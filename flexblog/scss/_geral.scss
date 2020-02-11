@@ -1,0 +1,17 @@
+body {
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: #222222;
+}
+
+// Cores
+
+$azul-escuro: #122ab2;
+$azul-claro: #2c70ff;
+
+// Fontes
+
+@mixin titulo {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1;
+}
