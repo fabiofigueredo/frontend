@@ -1,0 +1,38 @@
+// BG
+@mixin bg-laranja {
+    background: #E75300; 
+}
+
+@mixin bg-laranja-escuro {
+    background: #AE3E00;
+}
+
+@mixin bg-roxo {
+    background: linear-gradient(270deg, #6E2683 14.69%, #4A095D 100%), #702283;
+}
+
+@mixin bg-amarelo {
+    background: linear-gradient(90deg, #FF9900 54.69%, #FCB500 99.17%), #FF9900;
+}
+
+@mixin bg-azul {
+    background: linear-gradient(270deg, #10A7C1 0%, #11798B 100%), #10A7C1;
+}
+
+@mixin bg-azul-escuro {
+    background: #15375D;
+}
+
+@mixin bg-verde {
+    background: linear-gradient(269.16deg, #A6E000 0.32%, #BAFC00 99.66%), #A6E000;
+}
+
+@mixin bg-amarelo-2 {
+    background: linear-gradient(270deg, #FBBA00 0%, #FBD300 100%), #FBBD00;
+}
+
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
